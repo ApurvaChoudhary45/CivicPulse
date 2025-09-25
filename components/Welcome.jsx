@@ -52,8 +52,8 @@ const Welcome = () => {
         {/* Hero Section */}
         <div className='flex justify-center items-center flex-col md:py-30 gap-5 py-20'>
           <h1 className='md:text-5xl font-mono text-white w-3/4 text-center text-2xl'>
-            "Making Neighborhoods Better, One Complaint at a Time"
-          </h1>
+  &quot;Making Neighborhoods Better, One Complaint at a Time&quot;
+</h1>
 
           {/* ✅ FIXED hydration-safe text */}
           <p className='md:text-3xl font-mono text-white flex items-center gap-3 mt-2 text-sm'>

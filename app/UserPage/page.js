@@ -86,7 +86,7 @@ const UserPage = () => {
       setcancreateticket(permission?.isGranted || false);
       // setrole(claim?.value?.[0]?.name)
     }
-  }, [isAuthenticated]);
+  }, [isAuthenticated, getPermission]);
 
 
   useEffect(() => {
@@ -160,7 +160,9 @@ const UserPage = () => {
 
             {/* Right: Profile / Logout */}
             <div className="flex items-center space-x-4">
-              <span className="text-gray-700 font-medium">Hi, {user?.given_name}</span>
+              <span className="text-gray-700 font-medium">
+                Hi, {user?.given_name.replace(/"/g, "&quot;")}
+              </span>
               <LogoutLink postLogoutRedirectURL='/' className="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition">
                 Logout
               </LogoutLink>
@@ -194,7 +196,9 @@ const UserPage = () => {
           </section>
         </div>
         <div className="bg-white rounded-2xl shadow-md p-4 space-y-6">
-          <h1 className='md:text-4xl text-center font-mono text-xl'>🤝 “Join hands in building a safer, cleaner community.”</h1>
+          <h1 className='md:text-4xl text-center font-mono text-xl'>
+            🤝 &ldquo;Join hands in building a safer, cleaner community.&rdquo;
+          </h1>
 
           {/* File Complaint Button */}
           {complaint && <ComplaintForm onComplaintAdded={addComplaint} />}
@@ -224,7 +228,7 @@ const UserPage = () => {
 
                   {/*Dropdown*/}
                   <button className="flex items-center gap-2 text-green-600 font-medium text-sm transition-all duration-300 ease-in-out" onClick={() => collapse(item._id)}>
-                    {expanded === item._id ? 'Hide Image' : "Show Image"}
+                    {expanded === item._id ? "Hide Image" : "Show Image"}
                     {expanded === item._id ? (<ChevronUp size={16} />) : (<ChevronDown size={16} />)}
                   </button>
 
@@ -238,8 +242,8 @@ const UserPage = () => {
 
                     </div>
                   )}
-                  <div className='text-center'>
-                    {item?.status === 'Resolved' && <><span className='text-lg font-bold font-mono mt-2 text-green-400'>🟢{item?.status}</span>
+                  <div className="text-center">
+                    {item?.status === "Resolved" && <><span className='text-lg font-bold font-mono mt-2 text-green-400'>🟢{item?.status}</span>
 
                       <h1 className="text-mono">Rate the service</h1>
                       <div className="flex justify-center items-center gap-5 mt-5">
@@ -274,8 +278,8 @@ const UserPage = () => {
 
                     </>
                     }
-                    {item?.status === 'Pending' && <span className='text-lg font-bold font-mono mt-2 text-red-500'>🔴{item?.status}</span>}
-                    {item?.status === 'Failed' && <span className='text-lg font-bold font-mono mt-2 text-yellow-400'>🟡{item?.status}</span>}
+                    {item?.status === "Pending" && <span className='text-lg font-bold font-mono mt-2 text-red-500'>🔴{item?.status}</span>}
+                    {item?.status === "Failed" && <span className='text-lg font-bold font-mono mt-2 text-yellow-400'>🟡{item?.status}</span>}
                   </div>
                 </div>
               </div>)

@@ -28,7 +28,7 @@ const StaffPage = () => {
       const permission = getPermission('view:ticket');
       setcanViewTicket(permission?.isGranted || false);
     }
-  }, [isAuthenticated]);
+  }, [isAuthenticated, getPermission]);
 
   useEffect(() => {
     const fetcher = async () => {
@@ -184,7 +184,7 @@ const StaffPage = () => {
                         className="flex items-center gap-2 text-green-600 font-medium text-sm"
                         onClick={() => collapse(item._id)}
                       >
-                        {expanded === item._id ? 'Hide Image' : 'Show Image'}
+                        {expanded === item._id ? "Hide Image" : "Show Image"}
                         {expanded === item._id ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
                       </button>
 
