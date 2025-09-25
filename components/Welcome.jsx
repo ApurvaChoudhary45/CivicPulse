@@ -35,14 +35,14 @@ const Welcome = () => {
           </h1>
           <div className='flex justify-between items-center gap-3'>
             <LoginLink
-              postLoginRedirectURL="https://civic-pulse-eight.vercel.app/UserPage"
+              postLoginRedirectURL="/UserPage"
               className='text-sm font-mono border p-2 rounded-4xl text-white cursor-pointer hover:bg-green-200 transition-all ease-in-out duration-150 hover:text-black'
             >
               User Login
             </LoginLink>
 
 
-            <LoginLink postLoginRedirectURL='https://civic-pulse-eight.vercel.app/StaffPage' className='text-sm font-mono border p-2 rounded-4xl text-white cursor-pointer hover:bg-green-200 transition-all ease-in-out duration-150 hover:text-black'>
+            <LoginLink postLoginRedirectURL='/StaffPage' className='text-sm font-mono border p-2 rounded-4xl text-white cursor-pointer hover:bg-green-200 transition-all ease-in-out duration-150 hover:text-black'>
               Admin Login
             </LoginLink>
 
@@ -65,7 +65,7 @@ const Welcome = () => {
 
           {/* Social Icons */}
           <div className='flex justify-center items-center relative gap-10 text-5xl'>
-            <LoginLink postLoginRedirectURL="https://civic-pulse-eight.vercel.app/UserPage"> <FcGoogle className='bg-white rounded-xl px-1 transition-all duration-300 ease-in-out hover:scale-105 cursor-pointer' /></LoginLink>
+            <LoginLink postLoginRedirectURL="/UserPage"> <FcGoogle className='bg-white rounded-xl px-1 transition-all duration-300 ease-in-out hover:scale-105 cursor-pointer' /></LoginLink>
             <LoginLink
               postLoginRedirectURL="/UserPage"><FaGithub className='bg-gray-200 rounded-xl px-1 transition-all duration-300 ease-in-out hover:scale-105 cursor-pointer' /></LoginLink>
             <LoginLink
