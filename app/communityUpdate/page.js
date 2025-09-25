@@ -46,7 +46,7 @@ const CommunityUpdatesPage = () => {
     const comment = comments[id];
     if (!comment) return;
 
-    await fetch('/api/community-comment', {
+    await fetch('/api/community-update', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ updateId: id, comment })
