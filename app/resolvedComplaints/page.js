@@ -83,7 +83,7 @@ const StaffPage = () => {
                                 <div className="hidden md:flex space-x-8">
                                     <Link href="/StaffPage" className="text-gray-700 hover:text-indigo-600">Dashboard</Link>
 
-                                    <Link href="/resolved-complaints" className="text-gray-700 hover:text-indigo-600">Resolved Complaints</Link>
+                                    <Link href="/resolvedComplaints" className="text-gray-700 hover:text-indigo-600">Resolved Complaints</Link>
                                 </div>
                                 <div className="flex items-center space-x-4">
                                     <span className="text-gray-700 font-medium">Hi, {user?.given_name}</span>
