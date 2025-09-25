@@ -42,20 +42,7 @@ const CommunityUpdatesPage = () => {
     setComments(prev => ({ ...prev, [id]: value }));
   }
 
-  const postComment = async (id) => {
-    const comment = comments[id];
-    if (!comment) return;
-
-    await fetch('/api/community-update', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ updateId: id, comment })
-    });
-
-    // clear comment input
-    setComments(prev => ({ ...prev, [id]: '' }));
-  }
-
+  
   if (!isAuthenticated) return null;
 
   return (
