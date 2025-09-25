@@ -163,7 +163,7 @@ const UserPage = () => {
               <span className="text-gray-700 font-medium">
                 Hi, {user?.given_name.replace(/"/g, "&quot;")}
               </span>
-              <LogoutLink postLogoutRedirectURL={process.env.KINDE_SITE_URL}  className="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition">
+              <LogoutLink postLogoutRedirectURL={process.env.KINDE_POST_LOGOUT_REDIRECT_URL}  className="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition">
                 Logout
               </LogoutLink>
             </div>
