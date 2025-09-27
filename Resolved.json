@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "68cfcb1c59da80bda727ab83"
+  },
+  "main": "Dangerous Pothole on Main Road",
+  "sub": "Road",
+  "description": "A large pothole has formed on the main road, posing a risk to vehicles and pedestrians. It causes traffic slowdown and can potentially lead to accidents, especially at night or during rain when it becomes harder to spot. Immediate repair is needed to ensure public safety.",
+  "imgurl": "https://files.edgestore.dev/mlyf5wl31s3bf2cx/publicFiles/_public/6b2bf7ad-3b7e-479a-95a5-1fea1bff1a8e.png"
+},
+{
+  "_id": {
+    "$oid": "68cfcb4859da80bda727ab84"
+  },
+  "main": "Severe Water Leakage Near Residential Area",
+  "sub": "Water",
+  "description": "Continuous water leakage has been observed near the residential block. It is causing water wastage, road damage, and inconvenience to pedestrians and vehicles. The stagnant water may also lead to health risks such as mosquito breeding. Urgent repair is required to prevent further damage and wastage.",
+  "imgurl": "https://files.edgestore.dev/mlyf5wl31s3bf2cx/publicFiles/_public/28599b61-bfdf-419a-99e1-72cf150e79a8.jpg"
+}]

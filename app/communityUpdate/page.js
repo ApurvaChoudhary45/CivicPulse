@@ -7,6 +7,7 @@ import Spinner from '@/components/Spinner';
 import { Heart } from "lucide-react";
 import Link from 'next/link';
 
+import Image from 'next/image';
 const CommunityUpdatesPage = () => {
   const { user, isAuthenticated, isLoading } = useKindeAuth();
   const router = useRouter();
@@ -117,7 +118,7 @@ const CommunityUpdatesPage = () => {
                   <h2 className="text-xl font-semibold text-gray-800">{update.title}</h2>
                   <p className="text-gray-600">{update.description}</p>
                   {update.imgurl && (
-                    <img src={update.imgurl} alt="update" className="w-full h-48 object-cover rounded-lg" />
+                    <Image src={update.imgurl} alt="update" width={300} height={400} className="w-full h-48 object-cover rounded-lg" />
                   )}
 
                 </div>

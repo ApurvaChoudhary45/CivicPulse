@@ -11,6 +11,7 @@ import { useRouter } from 'next/navigation';
 import ComplaintForm from '@/components/ComplaintForm';
 import Router from 'next/navigation';
 import Spinner from '@/components/Spinner';
+import Image from 'next/image';
 const UserPage = () => {
   const { user, isAuthenticated, isLoading, getPermission } = useKindeAuth();
   const [complaint, setcomplaint] = useState(false)
@@ -163,7 +164,7 @@ const UserPage = () => {
               <span className="text-gray-700 font-medium">
                 Hi, {user?.given_name.replace(/"/g, "&quot;")}
               </span>
-              <LogoutLink postLogoutRedirectURL={process.env.KINDE_POST_LOGOUT_REDIRECT_URL}  className="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition">
+              <LogoutLink postLogoutRedirectURL='/' className="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition">
                 Logout
               </LogoutLink>
             </div>
@@ -234,9 +235,11 @@ const UserPage = () => {
 
                   {expanded === item._id && item?.imgurl && (
                     <div className="w-full h-48 overflow-hidden transition-all duration-300">
-                      <img
+                      <Image
                         src={item.imgurl}
                         alt="no img"
+                        width={300}
+                        height={300}
                         className="w-full h-full object-cover"
                       />
 

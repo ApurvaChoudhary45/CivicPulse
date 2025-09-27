@@ -6,6 +6,7 @@ import { useKindeAuth } from "@kinde-oss/kinde-auth-nextjs";
 import { useRouter } from 'next/navigation';
 import { ChevronDown, ChevronUp } from "lucide-react";
 import Spinner from '@/components/Spinner';
+import Image from 'next/image';
 
 const StaffPage = () => {
   const { user, isAuthenticated, isLoading, getPermission } = useKindeAuth();
@@ -151,7 +152,8 @@ const StaffPage = () => {
 
                       {expanded === item._id && item.imgurl && (
                         <div className="w-full h-48 overflow-hidden transition-all duration-300">
-                          <img src={item.imgurl} alt={`Image for ${item.main}`} className="w-full h-full object-cover" />
+                          <Image src={item.imgurl} alt={`Image for ${item.main}`} width={300}
+                        height={300} className="w-full h-full object-cover" />
                         </div>
                       )}
 

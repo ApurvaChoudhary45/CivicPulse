@@ -1,0 +1,70 @@
+[{
+  "_id": "1",
+  "title": "New Park Opening 🌳",
+  "description": "The community park near Main Street is now open with new swings and benches.",
+  "imgurl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?crop=entropy&cs=tinysrgb&fit=max&h=250&w=400",
+  "date": "2025-09-23"
+},
+{
+  "_id": "2",
+  "title": "Street Cleaning 🚮",
+  "description": "The streets in Sector 5 will be cleaned tomorrow from 6 AM to 10 AM.",
+  "imgurl": "https://images.unsplash.com/photo-1596397330850-8cfba3c3b1de?crop=entropy&cs=tinysrgb&fit=max&h=250&w=400",
+  "date": "2025-09-22"
+},
+{
+  "_id": "3",
+  "title": "Community Yoga Event 🧘‍♂️",
+  "description": "Join us at the central park for a morning yoga session this Saturday.",
+  "imgurl": "https://images.unsplash.com/photo-1554284126-0caa17f0f65f?crop=entropy&cs=tinysrgb&fit=max&h=250&w=400",
+  "date": "2025-09-21"
+},
+{
+  "_id": "4",
+  "title": "Water Supply Maintenance 💧",
+  "description": "Water supply will be interrupted in Sector 3 for maintenance on Friday.",
+  "imgurl": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?crop=entropy&cs=tinysrgb&fit=max&h=250&w=400",
+  "date": "2025-09-20"
+},
+{
+  "_id": "5",
+  "title": "Road Repair Work 🛠️",
+  "description": "Pothole repairs on Elm Street starting Monday morning.",
+  "imgurl": "https://images.unsplash.com/photo-1581091215361-7f66e3c949bb?crop=entropy&cs=tinysrgb&fit=max&h=250&w=400",
+  "date": "2025-09-19"
+},
+{
+  "_id": "6",
+  "title": "Neighborhood Cleanup Day 🧹",
+  "description": "Volunteers needed for cleaning the park and streets this Sunday.",
+  "imgurl": "https://images.unsplash.com/photo-1581579188642-282ddfcdfae3?crop=entropy&cs=tinysrgb&fit=max&h=250&w=400",
+  "date": "2025-09-18"
+},
+{
+  "_id": "7",
+  "title": "Community Book Exchange 📚",
+  "description": "Bring your old books and exchange them with others at the library.",
+  "imgurl": "https://images.unsplash.com/photo-1512820790803-83ca734da794?crop=entropy&cs=tinysrgb&fit=max&h=250&w=400",
+  "date": "2025-09-17"
+},
+{
+  "_id": "8",
+  "title": "Traffic Signal Issue 🚦",
+  "description": "The traffic signal at Main & 3rd Street is malfunctioning, please drive carefully.",
+  "imgurl": "https://images.unsplash.com/photo-1564501049413-6b4e6e9f2045?crop=entropy&cs=tinysrgb&fit=max&h=250&w=400",
+  "date": "2025-09-16"
+},
+{
+  "_id": "9",
+  "title": "Community Health Camp 🏥",
+  "description": "Free health checkups at the community hall on Saturday.",
+  "imgurl": "https://images.unsplash.com/photo-1588776814546-0a3d0f66e5a5?crop=entropy&cs=tinysrgb&fit=max&h=250&w=400",
+  "date": "2025-09-15"
+},
+{
+  "_id": "10",
+  "title": "New Street Lights Installed 💡",
+  "description": "Street lights installed on Oak Street for better safety at night.",
+  "imgurl": "https://images.unsplash.com/photo-1505691723518-36a46c45f1f6?crop=entropy&cs=tinysrgb&fit=max&h=250&w=400",
+  "date": "2025-09-14"
+}]

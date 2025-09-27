@@ -6,6 +6,7 @@ import { useKindeAuth } from "@kinde-oss/kinde-auth-nextjs";
 import { useRouter } from 'next/navigation';
 import { ChevronDown, ChevronUp } from "lucide-react";
 import Spinner from '@/components/Spinner';
+import Image from 'next/image';
 
 
 const UserPage = () => {
@@ -139,7 +140,8 @@ const UserPage = () => {
 
                                             {expanded === item._id && item?.imgurl && (
                                                 <div className="w-full h-48 overflow-hidden transition-all duration-300">
-                                                    <img src={item.imgurl} alt="no img" className="w-full h-full object-cover" />
+                                                    <Image src={item.imgurl} alt="no img" width={300}
+                        height={300} className="w-full h-full object-cover" />
                                                 </div>
                                             )}
 

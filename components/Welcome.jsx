@@ -68,9 +68,7 @@ const Welcome = () => {
             <LoginLink postLoginRedirectURL="/UserPage"> <FcGoogle className='bg-white rounded-xl px-1 transition-all duration-300 ease-in-out hover:scale-105 cursor-pointer' /></LoginLink>
             <LoginLink
               postLoginRedirectURL="/UserPage"><FaGithub className='bg-gray-200 rounded-xl px-1 transition-all duration-300 ease-in-out hover:scale-105 cursor-pointer' /></LoginLink>
-            <LoginLink
-              postLoginRedirectURL="/UserPage"><FaTwitter className='bg-blue-400 rounded-xl px-1 transition-all duration-300 ease-in-out hover:scale-105 cursor-pointer' /></LoginLink>
-            {/* <HiOutlineMail className='bg-white rounded-xl px-1 transition-all duration-300 ease-in-out hover:scale-105 cursor-pointer' /> */}
+            
           </div>
         </div>
 

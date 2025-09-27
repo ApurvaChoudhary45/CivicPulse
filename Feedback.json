@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "68cec08744eba11dcc31b9b5"
+  },
+  "main": "Dangerous Pothole on Main Road",
+  "sub": "Road",
+  "description": "A large pothole has formed on the main road, posing a risk to vehicles and pedestrians. It causes traffic slowdown and can potentially lead to accidents, especially at night or during rain when it becomes harder to spot. Immediate repair is needed to ensure public safety.",
+  "rate": 4,
+  "comment": "fsssfssf"
+},
+{
+  "_id": {
+    "$oid": "68cfcd9459da80bda727ab85"
+  },
+  "main": "Severe Water Leakage Near Residential Area",
+  "sub": "Water",
+  "description": "Continuous water leakage has been observed near the residential block. It is causing water wastage, road damage, and inconvenience to pedestrians and vehicles. The stagnant water may also lead to health risks such as mosquito breeding. Urgent repair is required to prevent further damage and wastage.",
+  "rate": 5,
+  "comment": ""
+},
+{
+  "_id": {
+    "$oid": "68cffb7059da80bda727ab8a"
+  },
+  "main": "Damage Wall",
+  "sub": "Safety",
+  "description": "A damaged wall",
+  "rate": 5,
+  "comment": ""
+},
+{
+  "_id": {
+    "$oid": "68cffd7359da80bda727ab8c"
+  },
+  "main": "Severe Water Leakage Near Residential Area",
+  "sub": "Water",
+  "description": "Continuous water leakage has been observed near the residential block. It is causing water wastage, road damage, and inconvenience to pedestrians and vehicles. The stagnant water may also lead to health risks such as mosquito breeding. Urgent repair is required to prevent further damage and wastage.",
+  "rate": 4,
+  "comment": ""
+},
+{
+  "_id": {
+    "$oid": "68cffe0c59da80bda727ab8d"
+  },
+  "main": "Severe Water Leakage Near Residential Area",
+  "sub": "Water",
+  "description": "Continuous water leakage has been observed near the residential block. It is causing water wastage, road damage, and inconvenience to pedestrians and vehicles. The stagnant water may also lead to health risks such as mosquito breeding. Urgent repair is required to prevent further damage and wastage.",
+  "rate": 4,
+  "comment": ""
+},
+{
+  "_id": {
+    "$oid": "68d018bd4b1b546e7f2bd43f"
+  },
+  "main": "new complaint",
+  "sub": "Water",
+  "description": "Hey",
+  "rate": 4,
+  "comment": ""
+},
+{
+  "_id": {
+    "$oid": "68d018ea4b1b546e7f2bd440"
+  },
+  "main": "new complaint",
+  "sub": "Water",
+  "description": "Hey",
+  "rate": 4,
+  "comment": ""
+},
+{
+  "_id": {
+    "$oid": "68d019384b1b546e7f2bd442"
+  },
+  "main": "mango on tree",
+  "sub": "Safety",
+  "description": "aama bachao",
+  "rate": 1,
+  "comment": ""
+},
+{
+  "_id": {
+    "$oid": "68d020eb4b1b546e7f2bd445"
+  },
+  "main": "Potholes on Main Street",
+  "sub": "Road",
+  "description": "The main road near the bus stand has multiple potholes making it dangerous for vehicles, especially at night. Immediate repair is needed.",
+  "rate": 4,
+  "comment": ""
+},
+{
+  "_id": {
+    "$oid": "68d219af0ed4e5fbdd913033"
+  },
+  "main": "Water Leakage Near Park",
+  "sub": "Water",
+  "description": "A water pipe near Greenfield Park has been leaking for the past week, wasting water and creating slippery patches on the road. Needs urgent attention.",
+  "rate": 5,
+  "comment": ""
+},
+{
+  "_id": {
+    "$oid": "68d219b20ed4e5fbdd913034"
+  },
+  "main": "dsd",
+  "sub": "Water",
+  "description": "ds",
+  "rate": 5,
+  "comment": ""
+}]
