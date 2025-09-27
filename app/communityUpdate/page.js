@@ -69,7 +69,7 @@ const CommunityUpdatesPage = () => {
             {expand && (
               <div className="md:hidden mt-30 ml-7 space-y-2 bg-white px-4 py-2 shadow rounded-lg absolute z-10">
                 <Link href="/UserPage" className="block text-gray-700 hover:text-indigo-600">Dashboard</Link>
-                <Link href="/UserPage" className="block text-gray-700 hover:text-indigo-600">File Complaints</Link>
+                
                 <Link href="/userResolved" className="block text-gray-700 hover:text-indigo-600">Resolved Complaint</Link>
                 <Link href="/communityUpdate" className="block text-gray-700 hover:text-indigo-600">Community Updates</Link>
               </div>
@@ -79,9 +79,7 @@ const CommunityUpdatesPage = () => {
               <Link href="/UserPage" className="text-gray-700 hover:text-indigo-600">
                 Dashboard
               </Link>
-              <Link href="/UserPage" className="text-gray-700 hover:text-indigo-600">
-                File Complaints
-              </Link>
+              
               <Link href="/userResolved" className="text-gray-700 hover:text-indigo-600">
                 Resolved Complaint
               </Link>

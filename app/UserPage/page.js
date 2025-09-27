@@ -146,9 +146,7 @@ const UserPage = () => {
               <Link href="/UserPage" className="text-gray-700 hover:text-indigo-600">
                 Dashboard
               </Link>
-              <Link href="/UserPage" className="text-gray-700 hover:text-indigo-600">
-                File Complaints
-              </Link>
+              
               <Link href="/userResolved" className="text-gray-700 hover:text-indigo-600">
                 Resolved Complaint
               </Link>

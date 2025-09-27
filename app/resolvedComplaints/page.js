@@ -39,7 +39,7 @@ const StaffPage = () => {
             const res = await data.json()
             // add localStatus for dropdown handling
 
-            setcomp(res?.complaints)
+            setcomp(res?.feedbacks)
             setloading(false)
         }
         fetcher()
